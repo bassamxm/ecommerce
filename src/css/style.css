@@ -542,6 +542,52 @@ body {
 
  }
 
+/***************************
+ *****************
+ PRODUCT PAGE
+ *****************
+ ***************************/
+
+.custom-breadcrumb{
+    background-color: transparent;
+    padding: 25px 0;
+}
+
+.custom-breadcrumb a{
+    color: #555555;
+    text-decoration: none;
+}
+
+.custom-breadcrumb a:hover{
+    color: #f8ad47;
+}
+
+.custom-breadcrumb .active{
+    color: darkgray;
+}
+
+.custom-breadcrumb>li+li::before{
+    content: '/';
+    color: #555555;
+    padding: 0 5px;
+}
+
+/*صورة المنتج*/
+
+#carousel-product-images .carousel-indicators{
+    position: relative;
+    top: -35px;
+    right: auto;
+}
+
+#carousel-product-images .img{
+    border: 1px solid #8c8c8c;
+    width: 100%;
+
+}
+
+
+
  /***************************
  *****************
  MEDIA QUERY
